@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NekraLux</title>
+    <meta name="title" content="NekraLux">
+    <meta name="description" content="Ovo je sajt od Agencije za nekretnine">
+    <link rel="stylesheet" href="/favicon.svg" type="image/svg+xml">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <script src="./assets/js/script.js" defer></script>
+
+
+
+</head>
+<body>
+
+  <header class="header" data-header>
+    <div class="container">
+
+        <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="190" height="28" alt="NekraLux">
+        </a>
+
+        <nav class="navbar" data-navbar>
+            <ul class="navbar-list">
+
+                <li>
+                    <a href="#" class="navbar-link label-medium">Početna</a>
+                </li>
+
+                <li>
+                    <a href="#" class="navbar-link label-medium">Iznajmi</a>
+                </li>
+
+                <li>
+                    <a href="#" class="navbar-link label-medium">Kupi</a>
+                </li>
+
+                <li>
+                    <a href="#" class="navbar-link label-medium">O nama</a>
+                </li>
+
+            </ul>
+
+            <div class="navbar-wrapper">
+                <a href="#" class="btn-link label-medium">Prijava</a>
+
+                <a class="btn btn-fill label-medium">Počni</a>
+            </div>
+
+        </nav>
+
+        <button class="nav-toggle-btn icon-btn" aria-label="toggle navbar" data-nav-toggler>
+            <span class="material-symbols-rounded open" aria-hidden="true">menu</span>
+
+            <span class="material-symbols-rounded close" aria-hidden="true">close</span>
+
+        </button>
+
+    </div>
+  </header>
+
+<main>
+    <article>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+
+
+                    <h1 class="headline-large hero-title">Pronađi dom po tvom ukusu</h1>
+                    
+                    <p class="body-large hero-text">NekraLux agencija za nekretnine je tu da pomogne oko tvoje nove adrese!
+                    </p>
+
+                    <form action="./" method="get" class="search-bar">
+                        <label class="search-item">
+                            <span class="label-medium label">Želim da</span>
+                            <select name="transaction_type" class="search-item-field body-medium">
+                                <option value="Iznajmi" selected>Iznajmi</option>
+                                <option value="Kupi">Kupi</option>
+                            </select>
+                            <span class="material-symbols-rounded" aria-hidden="true">real_estate_agent</span>
+                        </label>
+                    
+                        <label class="search-item">
+                            <span class="label-medium label">Tip nekretnine</span>
+                            <select name="property_type" class="search-item-field body-medium">
+                                <option value="Sve" selected>Sve</option>
+                                <option value="Kuća">Kuća</option>
+                                <option value="Stan">Stan</option>
+                                <option value="Vila">Vila</option>
+                                <option value="Vikendica">Vikendica</option>
+                            </select>
+                            <span class="material-symbols-rounded" aria-hidden="true">gite</span>
+                        </label>
+                    
+                        <label class="search-item">
+                            <span class="label-medium label">Lokacija</span>
+                            <input type="text" name="location" placeholder="Grad" class="search-item-field body-medium">
+                            <span class="material-symbols-rounded" aria-hidden="true">Location_on</span>
+                        </label>
+                    
+                        <button type="submit" class="search-btn">
+                            <span class="material-symbols-rounded" aria-hidden="true">search</span>
+                            <span class="label-medium">Pretraži</span>
+                        </button>
+                    </form>
+                    
+
+                   
+
+                </div>
+
+                <img src="./assets/images/background.jpg" width="816" height="659" role="presentation" class="background">
+                <img src="./assets/images/bg-pattern.png" width="1240" height="840" role="presentation" class="bg-pattern">
+
+            </div>
+        </section>
+
+
+        <section class="section propery" aria-labelledby="property-label">
+            <div class="container">
+                <div class="title-wrapper">
+
+                    <div>
+                        <h2 class="section-title headline-small">Najbolje po nasem izboru</h2>
+
+                    </div>
+
+                    <a href="#" class="btn btn-outline">
+                        <span class="label-medium">Istraži</span>
+
+                        <span class="material-symbols-rounded" aria-hidden="true">arrow_outward</span>
+                    </a>
+
+                </div>
+
+                <div class="property-list">
+
+                    <div class="card">
+
+                        <div class="card-banner">
+
+                            <figure class="img-holder" style="--width: 585; --height: 390;">
+                                <img src="./assets/images/background.jpg" width="585" height="390" alt="Novi Sad vila" class="img-cover">
+                            </figure>
+
+                            <span class="badge label-medium">Novo</span>
+
+                            <button class="icon-btn fav-btn" aria-label="Dodaj u omiljene" data-toggle-btn>
+                                <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+                            </button>
+
+                        </div>
+
+                        <div class="card-content">
+                            <span class="title-large">€790.000</span>
+
+                            <h3>
+                              
+                                <a href="#" class="title-small card-title">Novi Sad Vila</a>                          
+
+                            </h3>
+
+                            <address class="body-medium card-tex">
+                                Dunavska 36a, Novi Sad
+                            </address>
+
+                            <div class="card-meta-list">
+
+                                <div class="meta-item">
+                                    <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+
+                                    <span class="meta-text label-medium">3 Kreveta</span>
+                                </div>
+
+                            
+
+                                <div class="meta-item">
+                                    <span class="material-symbols-rounded meta-icon" aria-hidden="true">bathtub</span>
+    
+                                    <span class="meta-text label-medium">2 Kupatila</span>
+                                </div>
+
+                            
+
+                                <div class="meta-item">
+                                    <span class="material-symbols-rounded meta-icon" aria-hidden="true">straighten</span>
+        
+                                    <span class="meta-text label-medium">500 m2</span>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    
+                    <div class="card">
+
+                        <div class="card-banner">
+
+                            <figure class="img-holder" style="--width: 585; --height: 390;">
+                                <img src="./assets/images/property-2.jpg" width="585" height="390" alt="Beograd Vila" class="img-cover">
+                            </figure>
+
+                            
+
+                            <button class="icon-btn fav-btn" aria-label="Dodaj u omiljene" data-toggle-btn>
+                                <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+                            </button>
+
+                        </div>
+
+                        <div class="card-content">
+                            <span class="title-large">€900.000</span>
+
+                            <h3>
+                              
+                                <a href="#" class="title-small card-title">Beograd Vila</a>                          
+
+                            </h3>
+
+                            <address class="body-medium card-tex">
+                                Proleterska 87, Beograd
+                            </address>
+
+                            <div class="card-meta-list">
+
+                                <div class="meta-item">
+                                    <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+
+                                    <span class="meta-text label-medium">5 Kreveta</span>
+                                </div>
+
+                            
+
+                                <div class="meta-item">
+                                    <span class="material-symbols-rounded meta-icon" aria-hidden="true">bathtub</span>
+    
+                                    <span class="meta-text label-medium">4 Kupatila</span>
+                                </div>
+
+                            
+
+                                <div class="meta-item">
+                                    <span class="material-symbols-rounded meta-icon" aria-hidden="true">straighten</span>
+        
+                                    <span class="meta-text label-medium">400 m2</span>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="card">
+
+                        <div class="card-banner">
+
+                            <figure class="img-holder" style="--width: 585; --height: 390;">
+                                <img src="./assets/images/property-3.jpg" width="585" height="390" alt="Novi Sad poslovni prostor" class="img-cover">
+                            </figure>
+
+                            
+
+                            <button class="icon-btn fav-btn" aria-label="Dodaj u omiljene" data-toggle-btn>
+                                <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+                            </button>
+
+                        </div>
+
+                        <div class="card-content">
+                            <span class="title-large">€300.000</span>
+
+                            <h3>
+                              
+                                <a href="#" class="title-small card-title">Novi Sad posloni prostor</a>                          
+
+                            </h3>
+
+                            <address class="body-medium card-tex">
+                                Skerliceva 12, Novi Sad
+                            </address>
+
+                            <div class="card-meta-list">
+
+                                <div class="meta-item">
+                                    <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+
+                                    <span class="meta-text label-medium">1 Kreveta</span>
+                                </div>
+
+                            
+
+                                <div class="meta-item">
+                                    <span class="material-symbols-rounded meta-icon" aria-hidden="true">bathtub</span>
+    
+                                    <span class="meta-text label-medium">1 Kupatila</span>
+                                </div>
+
+                            
+
+                                <div class="meta-item">
+                                    <span class="material-symbols-rounded meta-icon" aria-hidden="true">straighten</span>
+        
+                                    <span class="meta-text label-medium">200 m2</span>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+
+    </article>
+</main>
+
+
+    <footer class="footer">
+
+        <div class="footer-top">
+            <div class="container">
+
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="/assets/images/logo.png" width="190" height="28" alt="nekralux">
+                    </a>
+
+                    <p class="body-medium footer-text">
+                        Pronađi mesto po tvom ukusu uz stručan tim NekraLux agencije!
+                    </p>
+                </div>
+
+                <nav class="footer-nav" aria-labelledby="nav-label-1">
+                    <p class="title-small footer-list-title" id="nav-label-1">Brzi link</p>
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <a href="#" class="body-medium footer-link">Početna</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="body-medium footer-link">Iznajmi</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="body-medium footer-link">Kupi</a>
+                        </li>
+
+
+
+                    </ul>
+                </nav>
+
+                <nav class="footer-nav" aria-labelledby="nav-label-2">
+                    <p class="title-small footer-list-title" id="nav-label-2">Podrška</p>
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <a href="#" class="body-medium footer-link">O nama</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="body-medium footer-link">Kontaktiraj nas</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="body-medium footer-link">Politika privatnosti</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="body-medium footer-link">Uslovi i odredbe</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <nav class="footer-nav" aria-labelledby="nav-label-3">
+                    <p class="title-small footer-list-title" id="nav-label-3">Kontaktiraj te nas</p>
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <a href="#" class="body-medium footer-link">nekraluxagency@yahoo.com</a>
+                        </li>
+
+                        <li>
+                            <address class="adress body-medium">
+                                Petra Drapsanina 23,Novi Sad,Srbija
+                            </address>
+                        </li>
+
+                        <li>
+                            <ul class="social-list">
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <img src="./assets/images/facebook.svg" alt="facebook">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <img src="./assets/images/insta.svg" alt="instagram">
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+
+                <p class="copyright body-medium">
+                    Copyright Miric 2024
+                </p>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+</html>
+
+
+
+
+
+
